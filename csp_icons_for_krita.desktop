@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=csp_icons_for_krita
+X-Python-2-Compatible=false
+X-Krita-Manual=
+Name=csp_icons_for_krita
+Comment=Replacing all the corresponding icons with avaliable icons from CSP.
