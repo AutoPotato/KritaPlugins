@@ -1,5 +1,6 @@
 from krita import *
 from PyQt5 import *
+from .Tool_List import newIconName
 import os
 
 class CSPiconsForKritaExtension(Extension):
@@ -14,8 +15,7 @@ class CSPiconsForKritaExtension(Extension):
         action.triggered.connect(self.CSPiconReplace)
 
     def CSPiconReplace(self):
-        # Krita.instance().icon("KisToolSelectOutline"button)
-        # Krita.instance().icon("tool_outline_selection")
-        cspIconPath = os.path.join(os.path.dirname(__file__), "tool_outline_selection.svg")
-        iconReplace = QIcon(cspIconPath)
-        Krita.instance().action("KisToolSelectOutline").setIcon(iconReplace)
+        for id, image in newIconName.items():
+            newIconPath = os.path.join(os.path.dirname(__file__), "Selected_Icons", image)
+            iconReplacement = QIcon(newIconPath)
+            Krita.instance().action(id).setIcon(iconReplacement)

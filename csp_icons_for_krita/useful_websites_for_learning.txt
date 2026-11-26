@@ -1,0 +1,19 @@
+Krita official resources
+https://scripting.krita.org/lessons/introduction
+https://scripting.krita.org/action-dictionary
+https://scripting.krita.org/icon-library
+
+Krita source code plugins
+https://invent.kde.org/graphics/krita/-/tree/master/plugins/python
+
+Krita plugin community
+https://krita-artists.org/tags/c/resources/plugins
+
+How to make a Krita Python plugin
+https://docs.krita.org/en/user_manual/python_scripting/krita_python_plugin_howto.html
+
+Location of Krita’s button icons?
+https://krita-artists.org/t/location-of-kritas-button-icons/124101/4
+
+Python os.path — Common pathname manipulations
+https://docs.python.org/3/library/os.path.html
